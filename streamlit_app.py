@@ -17,7 +17,7 @@ st.subheader('Which Movie Genre performs ($) best at the box office?')
 
 # Load data
 df = pd.read_csv('data/movies_genres_summary.csv')
-df.year = df.year.astype('int')
+#df.year = df.year.astype('int')
 
 # Input widgets
 ## Genres selection
